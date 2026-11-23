@@ -13,3 +13,5 @@ https://michaljuriga.github.io/SS_PRX_IIC/index.html
 - základnú schému HTML dokumentu (DOCTYPE, html, head, body)
 - význam <title>, charset="UTF-8" a lang="sk"
 - publikovanie stránky cez GitHub Pages
+
+Moj projekt html - https://github.com/MichalJuriga/SS_PRX_IIC/blob/main/08tema/08tema.html
