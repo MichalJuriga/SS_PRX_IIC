@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zvierata</title>
+    <style>
+        nav {
+            background-color: #d84c21;
+            padding: 10px;
+            border: 5px solid #000000;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .karta {
+            background-color: #d84c21;
+            border: 5px solid #000000;
+            border-radius: 8px;
+            padding: 15px;
+            width: 200px;
+        }
+        .karta img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zvierata</h1>
+    <p>Toto je jednoduchá stránka o zvieratách.</p>
+    <nav>
+        <a href="index.html">Domov</a> 
+        <a href="#galeria">Galeria</a>
+        <a href="#fakty">Fakty</a>
+    </nav>
+
+<div id="galeria"> 
+    
+    <div class="karta">
+        <img src="Obrazky08/zviera1.jpg" alt="Liska" width="300" height="200">
+        <h2>Liska</h2>
+        <p>Liska je krásne zviera s mäkkou, hladkou kožou.</p>
+    </div>
+    <div class="karta" >
+        <img src="Obrazky08/zviera2.jpg" alt="Medved" width="300" height="200">
+        <h2>Medved</h2>
+        <p>Medved je veľké a silné zviera, ktoré žije v lese.</p>
+    </div>
+    <div class="karta" >
+        <img src="Obrazky08/zviera3.jpg" alt="Jelen" width="300" height="200">
+        <h2>Jelen</h2>
+        <p>Jelen je rýchle a šikovné zviera, ktoré sa pohybuje po lese.</p>
+    </div>
+    <div class="karta" >
+        <img src="Obrazky08/zviera4.jpg" alt="Vevericka" width="300" height="200">
+        <h2>Vevericka</h2>
+        <p>Vevericka je malé a šikovné zviera, ktoré sa pohybuje po stromoch.</p>
+    </div>
+    <div class="karta">
+        <img src="Obrazky08/zviera5.jpg" alt="Daniel" width="300" height="200">
+        <h2>Daniel</h2>
+        <p>Daniel je zviera, ktoré sa pohybuje po lese.</p>
+    </div>
+    <div class="karta">
+     <img src="Obrazky08/zviera6.jpg" alt="Sova" width="300" height="200">
+        <h2>Sova</h2>
+        <p>Sova je nočné zviera, ktoré sa vyznačuje veľkými očami.</p>
+    </div>
+</div>
+
+<h2 id="fakty">Rychle fakty</h2>
+    <ul>
+        <li>Liska je krásne zviera s mäkkou, hladkou kožou.</li>
+        <li>Medved je veľké a silné zviera, ktoré žije v lese.</li>
+        <li>Jelen je rýchle a šikovné zviera, ktoré sa pohybuje po lese.</li>
+        <li>Vevericka je malé a šikovné zviera, ktoré sa pohybuje po stromoch.</li>
+        <li>Daniel je zviera, ktoré sa pohybuje po lese.</li>
+        <li>Sova je nočné zviera, ktoré sa vyznačuje veľkými očami.</li>
+    </ul>
+</body>
+</html>
